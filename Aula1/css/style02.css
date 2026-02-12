@@ -1,0 +1,12 @@
+body {
+    background-image: url(/Aula1/img/flaco1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+
+}
