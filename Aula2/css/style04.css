@@ -1,0 +1,17 @@
+body {
+    background-color: darkslategrey;
+    color: white;
+    justify-items: center;
+}
+
+.el1 {
+    background-color: darkred;
+    width: 500px;
+}
+
+.ex1 {
+    width: 500px;
+    padding: 50px;
+    box-sizing: border-box;
+    background-color: darkviolet;
+}
