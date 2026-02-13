@@ -1,0 +1,14 @@
+body {
+    background-color:coral;
+}
+
+.ex1 {
+    background-color: brown;
+    border: 3px solid black;
+    outline-style:solid ;
+    outline-width: 10px;
+    outline-color: yellow;
+    outline-offset: 10px;
+    width: 400px;
+    margin: 25px  auto;
+}
