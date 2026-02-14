@@ -1,0 +1,10 @@
+body {
+    background-color: darksalmon;
+}
+
+.ex1 {
+    list-style-image: url(../img/paz.svg);
+    list-style-type: disc;
+    
+    
+}

@@ -1,0 +1,51 @@
+body {
+   background-color: antiquewhite;
+}
+
+.link:link {
+   color: black;
+   background-color: blueviolet;
+}
+
+.link:hover {
+   color: darkgreen;
+   background-color: brown;
+}
+
+.link:active {
+   color: pink;
+   background-color: darkblue;
+}
+
+.link:visited {
+   color: darkred;
+   background-color: chartreuse;
+}
+
+* {
+   cursor: url(../img/pig.svg), auto;
+}
+
+/* h2 {
+   cursor: url(../img/Cooked\ Dog\ Meme--cursor--SweezyCursors.png), auto;
+} */
+
+.link-btn,
+.link-btn:visited {
+   /* background-color:darkgreen; */
+   background-color: transparent;
+   border: 3px solid darkgreen;
+   color: darkgreen;
+   padding: 20px 80px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   text-decoration: none;
+   text-align: center;
+   display: inline-block;
+}
+
+.link-btn:hover, .link-btn:active {
+   background-color: rgb(58, 155, 58);
+   color: white;
+   border: 3px solid white;
+   transition: .4s;
+}
