@@ -1,0 +1,103 @@
+body{
+    background-color: darkred;
+    color:white
+}
+
+/* Exemplo de jsutify-Content:space-evenly */
+.ex1 {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: space-evenly;
+    background-color: orangered;
+}
+
+.ex1 div{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    align-content: center;
+    background-color: burlywood;
+}
+
+/* Exemplo de jsutify-Content:space-around */
+.ex2 {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: space-around;
+    background-color: orangered;
+}
+
+.ex2 div{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    align-content: center;
+    background-color: burlywood;
+}
+
+/* Exemplo de jsutify-Content:space-between */
+.ex3 {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: space-between;
+    background-color: orangered;
+}
+
+.ex3 div{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    align-content: center;
+    background-color: burlywood;
+}
+
+/* Exemplo de jsutify-Content:center */
+.ex4 {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 15px;
+    justify-content: center;
+    background-color: orangered;
+}
+
+.ex4 div{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    align-content: center;
+    background-color: burlywood;
+}
+
+/* Exemplo de jsutify-Content:start */
+.ex5 {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 15px;
+    justify-content: start;
+    background-color: orangered;
+}
+
+.ex5 div{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    align-content: center;
+    background-color: burlywood;
+}
+
+/* Exemplo de jsutify-Content:end */
+.ex6 {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 15px;
+    justify-content: end;
+    background-color: orangered;
+}
+
+.ex6 div{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    align-content: center;
+    background-color: burlywood;
+}
